@@ -7,10 +7,17 @@
     <title>BlackFriday</title>
   </head>
   <body>
+    <header>
+      <a class="nav-bar-button" href="./">Home</a>
+      <a class="nav-bar-button" href="./">Produtos</a>
+      <a class="nav-bar-button" href="./">Carrinho</a>
+    </header>
     <section class="section-one background-section">
       <img class="logo" src="assets/logo.png" alt="Logotipo" />
+      <div id="arrow"></div>
     </section>
     <section class="section-two background-section">
+      <h1>Não perca nenhuma novidade</h1>
       <div class="card-container">
         <div id="form-content">
           <form id="form">
@@ -18,11 +25,19 @@
             <input type="email" placeholder="E-mail" id="email" />
             <input type="submit" value="Cadastrar" />
           </form>
+          <div id="option">
+            <p><span id="name"></span>Cadastro realizado com sucesso!</p>
+            <button id="option-button">Cadastrar outro e-mail</button>
+          </div>
         </div>
       </div>
+      <p class="form-description">
+        Preencha o formulario e receba em primera mao
+      </p>
     </section>
-    <footer>
+    <footer id="footer">
       <p>Todos os diretos reservados.</p>
+      <p>Desafio Landing Page Hiring Coders © VTEX 2021</p>
     </footer>
   </body>
   <script src="js/script.js"></script>
